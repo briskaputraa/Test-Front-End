@@ -1,0 +1,3 @@
+1.Buka file program di teks editor
+2.running program
+3.program sudah dapat dijalankan

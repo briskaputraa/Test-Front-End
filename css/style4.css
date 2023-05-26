@@ -1,0 +1,117 @@
+/*? global clearing */
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #212121;
+    font-family: 'Nunito', sans-serif;
+}
+
+:root{
+   --main : #002984;
+   --sec : #006C84;
+   --third : #E0E0E0;
+   --text1 : #FFFFFF;
+   --text2 : #000000;
+
+
+
+
+}
+
+.latar{
+    background: var(--text1);
+    width: 300px;
+    height: 100vh;
+    position: relative;
+    margin: auto;
+}
+
+.navbar{
+    background: var(--main);
+    padding: 10px;
+}
+
+
+ul{
+    list-style: none;
+    background: var(--main);
+}
+
+ul li{
+    display: inline-block;
+    margin: 5px;
+    background: var(--main);
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--text1);
+}
+
+ul li a{
+    background: var(--main);
+    text-decoration: none;
+}
+
+ul li a i{
+    background: var(--main);
+    color: var(--text1);
+    font-size: 20px;
+}
+
+.foto {
+    position: relative;
+    width: 270px;
+    height: 505px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 8px;
+}
+
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    background: none;
+}
+
+
+.foto .cap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: none;
+}
+
+.foto .cap img {
+    width: 100%;
+    height: 100%;
+    transform: scale(1.8);
+    border-radius: 0px;
+}
+
+.simpan {
+    background: var(--main);
+    position: absolute;
+    width: 270px;
+    height: 35px;
+    margin-top: -35px;
+    margin-left: 0px;
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+    border-radius: 0px 0px 8px 8px;
+}
+
+.simpan a{
+    color: var(--text1);
+    background: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-top: 8px;
+    font-size: 14px;
+    position: relative;
+}

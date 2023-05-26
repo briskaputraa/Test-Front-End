@@ -1,0 +1,137 @@
+/*? global clearing */
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #212121;
+    font-family: 'Nunito', sans-serif;
+}
+
+:root{
+   --main : #002984;
+   --sec : #006C84;
+   --third : #E0E0E0;
+   --text1 : #FFFFFF;
+   --text2 : #000000;
+
+
+
+
+}
+
+.latar{
+    background: var(--text1);
+    width: 300px;
+    height: 100vh;
+    position: relative;
+    margin: auto;
+}
+
+.navbar{
+    background: var(--main);
+    padding: 10px;
+}
+
+
+ul{
+    list-style: none;
+    background: var(--main);
+}
+
+ul li{
+    display: inline-block;
+    margin: 5px;
+    background: var(--main);
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--text1);
+}
+
+ul li a{
+    background: var(--main);
+    text-decoration: none;
+}
+
+ul li a i{
+    background: var(--main);
+    color: var(--text1);
+    font-size: 20px;
+}
+
+.person{
+    background: var(--third);
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+    margin-top: 15px;
+    margin-left: 15px;
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+    border-radius: 8px;
+}
+
+.person a{
+    background: none;
+    text-decoration: none;
+}
+
+.person a img{
+    width: 56px;
+    height: 56px;
+    border-radius: 8px;
+}
+
+
+.teks{
+    background: var(--text1);
+    margin: 20px 20px;
+    position: absolute;
+    left: 60px;
+    top: 73px;
+}
+
+.teks h1{
+    background: var(--text1);
+    position: relative;
+    font-size: 12px;
+}
+
+.teks p{
+    background: var(--text1);
+    position: relative;
+    font-size: 12px;
+}
+
+
+.kotak1{
+    background: var(--main);
+    position: absolute;
+    width: 270px;
+    height: 135px;
+    margin-left: 15px;
+    margin-top: 15px;
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+    border-radius: 8px
+}
+
+.kotak2{
+    background: var(--main);
+    position: absolute;
+    width: 270px;
+    height: 135px;
+    margin-left: 15px;
+    margin-top: 165px;
+    box-shadow: 4px 4px 8px rgba(0, 41, 132, 0.25);
+    border-radius: 8px;
+}
+
+.kotak3{
+    background: var(--main);
+    position: absolute;
+    width: 270px;
+    height: 135px;
+    margin-left: 15px;
+    margin-top: 315px;
+    border-radius: 8px;
+}
